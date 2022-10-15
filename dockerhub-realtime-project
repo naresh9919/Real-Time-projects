@@ -2,7 +2,7 @@ Docker hub real time project
 	Install Java jdk 11.0
 	Install Jenkins and start services and login to Jenkins dash board
 	Install maven
-	Install docker and start service ( sudo chmod 666 /var/run/docker.sock)
+	Install docker and start service ( sudo chmod 666 /var/run/docker.sock) for images (/var/lib/jenkins/workspace--> docker image ls)
 	Install git
 
 	Global tool configuration
