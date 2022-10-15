@@ -19,6 +19,8 @@ Docker hub real time project
  pipeline
  pipeline stage view
 
+Jenkinsfile::-
+
 
 pipeline {
     agent any
@@ -50,3 +52,12 @@ pipeline {
         }
     }
 }
+
+
+
+Docker file ::-
+
+FROM openjdk:11.0
+EXPOSE 8080
+ADD target/simpletomcatwebapp.war simpletomcatwebapp.war
+ENTRYPOINT ["java","-war","/simpletomcatwebapp.war"]
